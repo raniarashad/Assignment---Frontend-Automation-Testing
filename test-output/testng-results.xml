@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-28T00:20:25 EET" name="Suite" finished-at="2020-11-28T00:22:49 EET" duration-ms="143283">
+    <groups>
+    </groups>
+    <test started-at="2020-11-28T00:20:25 EET" name="Test" finished-at="2020-11-28T00:22:49 EET" duration-ms="143283">
+      <class name="tests.SearchingForCarsTest">
+        <test-method is-config="true" signature="StartDriver(java.lang.String)[pri:0, instance:tests.SearchingForCarsTest@28975c28]" started-at="2020-11-28T00:20:11 EET" name="StartDriver" finished-at="2020-11-28T00:20:25 EET" duration-ms="13922" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method signature="SearchTest()[pri:0, instance:tests.SearchingForCarsTest@28975c28]" started-at="2020-11-28T00:20:25 EET" name="SearchTest" finished-at="2020-11-28T00:21:45 EET" duration-ms="79670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchTest -->
+        <test-method is-config="true" signature="ScreenShot(org.testng.ITestResult)[pri:0, instance:tests.SearchingForCarsTest@28975c28]" started-at="2020-11-28T00:21:45 EET" name="ScreenShot" finished-at="2020-11-28T00:21:45 EET" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchTest status=SUCCESS method=SearchingForCarsTest.SearchTest()[pri:0, instance:tests.SearchingForCarsTest@28975c28] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenShot -->
+      </class> <!-- tests.SearchingForCarsTest -->
+      <class name="tests.AddAdvertisingTest">
+        <test-method signature="Add_Advertising_InVaildLogin(java.lang.String, java.lang.String)[pri:0, instance:tests.AddAdvertisingTest@3943a2be]" started-at="2020-11-28T00:21:45 EET" name="Add_Advertising_InVaildLogin" data-provider="UserLoginData_Invaild" finished-at="2020-11-28T00:21:48 EET" duration-ms="3100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Advertising_InVaildLogin -->
+        <test-method is-config="true" signature="ScreenShot(org.testng.ITestResult)[pri:0, instance:tests.AddAdvertisingTest@3943a2be]" started-at="2020-11-28T00:21:48 EET" name="ScreenShot" finished-at="2020-11-28T00:21:48 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Add_Advertising_InVaildLogin status=SUCCESS method=AddAdvertisingTest.Add_Advertising_InVaildLogin(java.lang.String, java.lang.String)[pri:0, instance:tests.AddAdvertisingTest@3943a2be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenShot -->
+        <test-method signature="Add_Advertising_VaildLogin(java.lang.String, java.lang.String)[pri:1, instance:tests.AddAdvertisingTest@3943a2be]" started-at="2020-11-28T00:21:48 EET" name="Add_Advertising_VaildLogin" data-provider="UserLoginData" finished-at="2020-11-28T00:21:55 EET" duration-ms="6947" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rania2410]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rania123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Advertising_VaildLogin -->
+        <test-method is-config="true" signature="ScreenShot(org.testng.ITestResult)[pri:0, instance:tests.AddAdvertisingTest@3943a2be]" started-at="2020-11-28T00:21:55 EET" name="ScreenShot" finished-at="2020-11-28T00:21:55 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Add_Advertising_VaildLogin status=SUCCESS method=AddAdvertisingTest.Add_Advertising_VaildLogin(java.lang.String, java.lang.String)[pri:1, instance:tests.AddAdvertisingTest@3943a2be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenShot -->
+        <test-method signature="FillForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:tests.AddAdvertisingTest@3943a2be]" started-at="2020-11-28T00:21:55 EET" name="FillForm" data-provider="FillForm" finished-at="2020-11-28T00:22:49 EET" duration-ms="53502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[500000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[any free text for testing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[01111112223]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm -->
+        <test-method is-config="true" signature="ScreenShot(org.testng.ITestResult)[pri:0, instance:tests.AddAdvertisingTest@3943a2be]" started-at="2020-11-28T00:22:49 EET" name="ScreenShot" finished-at="2020-11-28T00:22:49 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FillForm status=SUCCESS method=AddAdvertisingTest.FillForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:tests.AddAdvertisingTest@3943a2be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenShot -->
+      </class> <!-- tests.AddAdvertisingTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
